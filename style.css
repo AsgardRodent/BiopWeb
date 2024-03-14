@@ -1,0 +1,94 @@
+.navbar
+{
+    background-color: #FFF;
+    height: 80px;
+    margin: 20px;
+    border-radius: 16px;
+    padding: 0.5rem;
+}
+
+
+.navbar-brand
+{
+    font-weight: 500;
+    color: #386641;
+    font-size: 24px;
+    transition: 0.3s color;
+}
+.login-button
+{
+    background-color: #6A994E;
+    color: #F2E8CF;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+.login-button:hover
+{
+    background-color: #386641;
+}
+.navbar-toggler
+{
+    border:none;
+    font-size: 1.25rem;
+}
+.navbar-toggler:focus, .btn-close:focus
+{
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link
+{
+    color: #000;
+    font-weight: 500;
+    position: relative;
+}
+.nav-link:hover, .nav-link.active
+{
+    color: black;
+}
+.nav-link::before
+{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 2px;
+    background-color: #A7C957;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::before, .nav-link:active::before
+{
+    width: 100%;
+    visibility: visible;
+
+}
+
+.carousel-item .btn-primary
+{
+    background-color: #6A994E;
+    border-color: #6A994E;
+}
+
+.carousel-item .btn-primary:hover
+{
+    background-color: #386641;
+    border-color: #386641;
+}
+
+.carousel-item h1
+{
+    color: #F2E8CF
+}
+
+.container .bg-body-tertiary
+{
+    background-image: url('/icons/more_pics/markus-winkler-1_q_4xEa-XQ-unsplash.jpg');
+}
